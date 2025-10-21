@@ -8,6 +8,10 @@ import requests
 
 import random
 
+from os import system
+
+system("pip install numpy, openai, bs4")
+
 bot = Bot(token="7783613623:AAHHSWVi7HlB6PhX2rEmJeFNCZKMXO7UJGI") # кабан 7746997930:AAGisN5ApKcZV53BbDXya2an0Jn9OKCJOFE   погода 7783613623:AAHHSWVi7HlB6PhX2rEmJeFNCZKMXO7UJGI
 dp = Dispatcher()
 
@@ -22,3 +26,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
