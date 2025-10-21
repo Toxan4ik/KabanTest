@@ -1,6 +1,6 @@
 from os import system
 
-system("pip install numpy, openai, bs4")
+system("pip install openai, bs4")
 import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
@@ -25,5 +25,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
